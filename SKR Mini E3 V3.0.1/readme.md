@@ -19,7 +19,10 @@
 | SKR Mini E3 V3.0.1 | [https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_PIN.pdf](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0.1/Hardware/BTT%20E3%20SKR%20MINI%20V3.0.1_PIN.pdf) |
 | LCD Mini 12864 | https://github.com/bigtreetech/MINI-12864/blob/master/mini12864_v2.0/Hardware/MINI12864%20V2.0-Pin.png |
 
+Agradecimientos a:
+- veluska por explicar como hacer funcionar la pantalla en la SKR mini E3 v3.0.1 y hacerla funcionar en klipper (bigtreetech/BIGTREETECH-SKR-mini-E3#728 (comment))
 
+---------------------------------------------------------------------
 
 
 ## Klipper

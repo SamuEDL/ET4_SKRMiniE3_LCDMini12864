@@ -50,7 +50,8 @@ initial_BLUE: 0.0
 
 ## Marlin
 
-En caso, de que no funcione añadir este codigo en el fichero pins_BTT_SKR_MINI_E3_V3_0_1.h
+En caso, de que no funcione añadir este codigo en el fichero pins_BTT_SKR_MINI_E3_V3_0_1.h entre "#elif HAS_WIRED_LCD"  y "#if ENABLED(CR10_STOCKDISPLAY)"
+
 
 ```
 #if ENABLED(SKR_MINI_SCREEN_ADAPTER)

@@ -47,10 +47,13 @@ Cambios referentes a la placa
 | Cambio de velocidad de comunicacion | #define BAUDRATE 115200|
 | Serial Port | #define SERIAL_PORT 2 |
 | Serial Port | #define SERIAL_PORT_2 -1 |
-| Cambio de Driver en Y | #define Y_DRIVER_TYPE  TMC2209 |
-| Cambio de Driver en X | #define X_DRIVER_TYPE  TMC2209 |
-| Cambio de Driver en Z | #define Z_DRIVER_TYPE  TMC2209 |
-| Cambio de Driver en E0 | #define E0_DRIVER_TYPE  TMC2209 |
+| Cambio de Driver en Y | #define Y_DRIVER_TYPE TMC2209 |
+| Cambio de Driver en X | #define X_DRIVER_TYPE TMC2209 |
+| Cambio de Driver en Z | #define Z_DRIVER_TYPE TMC2209 |
+| Cambio de Driver en E0 | #define E0_DRIVER_TYPE TMC2209 |
+**Aviso:** Esta saliendo una nueva variante de SKR, la V3.0.1. En este caso, el parametro seria **MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0_1**, para diferenciarlo notaras que tiene 2 botones reset y boot.
+
+
 
 Cambios referentes al LCD:
 | Cambio | Parametro Implementado / Sustituido| 

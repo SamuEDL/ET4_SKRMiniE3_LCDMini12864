@@ -1,4 +1,4 @@
-| SKR Mini E3 v3 pin (PORT: pin) | Mini 12864 pin (PORT: pin) | 
+| SKR Mini E3 v3.0.1 (PORT: pin) | Mini 12864(PORT: pin) | 
 |---------------------------|-------------|
 | EX1: PB15 | EXP1: BTN |
 | EX1: PA9 | EXP2: ENCB |

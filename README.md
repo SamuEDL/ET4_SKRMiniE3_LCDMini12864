@@ -5,6 +5,9 @@ El motivo de la sustitucion de estos dos componentes, es porque se me quemo la p
 ## ¿Por que elegi estos componentes?
 Eran los mas baratos y no queria gastar mucho. Como consecuencia, habra que adaptar las conexiones para que se pueda conectar el LCD al SKR.
 
+## ¿Como conecto los componentes?
+Encontre esto que puede ser interesante y que puede ayudar en las instalacion de los componentes. https://os.ratrig.com/assets/files/skr-mini-e3-30-wiring-5ed9982d5a1c62e9f30c37b29a2e5571.svg
+
 ## ¿Cambios realizados en los ficheros de marlin?
 Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible en el repositorio de marlin. Todos los cambios se han realizado en configuration.h.
 

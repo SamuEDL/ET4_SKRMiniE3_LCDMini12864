@@ -1,6 +1,6 @@
 # ET4_SKRMiniE3_LCDMini12864
 En este repositorio, guardare los ficheros de configuracion para la Anet ET4 modeada con la placa base SKR Mini E3 V3.0 y LCD BTT BIGTREETECH MINI 12864 V2.0.
-El motivo de la sustitucion de estos dos componentes, es porque  se me quemo la placa y no es posible sustituir la placa sin cambiar la pantalla. A no ser que se use una placa original, que actualmente sale el doble de caro, de peor calidad y peor compatibilidad..
+El motivo de la sustitucion de estos dos componentes, es porque se me quemo la placa y no es posible sustituir la placa sin cambiar la pantalla. A no ser que se use una placa original, que actualmente sale el doble de caro, de peor calidad y peor compatibilidad.
 
 ## ¿Por que elegi estos componentes?
 Eran los mas baratos y no queria gastar mucho. Como consecuencia, habra que adaptar las conexiones para que se pueda conectar el LCD al SKR.
@@ -34,6 +34,34 @@ Eran los mas baratos y no queria gastar mucho. Como consecuencia, habra que adap
 |---------------------------|-------------|
 | SKR Mini E3 V3 | https://es.aliexpress.com/item/1005006042517491.html |
 | LCD Mini 12864 | https://es.aliexpress.com/item/1005005910581710.html |
+
+
+## ¿Cambios realizados en los ficheros de marlin?
+Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible en el repositorio de marlin.
+
+Cambios referentes a la placa
+
+| Cambio | Parametro Implementado / Sustituido| 
+|---------------------------|-------------|
+| Cambio de placa por la SKR | #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0 |
+| Cambio de velocidad de comunicacion | #define BAUDRATE 115200|
+| Serial Port | #define SERIAL_PORT 2 |
+| Serial Port | #define SERIAL_PORT_2 -1 |
+| Cambio de Driver en Y | #define Y_DRIVER_TYPE  TMC2209 |
+| Cambio de Driver en X | #define X_DRIVER_TYPE  TMC2209 |
+| Cambio de Driver en Z | #define Z_DRIVER_TYPE  TMC2209 |
+| Cambio de Driver en E0 | #define E0_DRIVER_TYPE  TMC2209 |
+
+Cambios referentes al LCD:
+| Cambio | Parametro Implementado / Sustituido| 
+|---------------------------|-------------|
+|En proceso|En proceso|
+
+Otros cambios:
+| Cambio | Parametro Implementado / Sustituido| 
+|---------------------------|-------------|
+| Activacion EndStop Z | #define USE_ZMIN_PLUG |
+
 
 ## Agradecimientos a 
 - evgarthub por explicar como se deberia conectar la placa a la pantalla (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1736805084)

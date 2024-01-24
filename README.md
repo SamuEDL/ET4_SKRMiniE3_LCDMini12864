@@ -37,7 +37,7 @@ Eran los mas baratos y no queria gastar mucho. Como consecuencia, habra que adap
 
 
 ## ¿Cambios realizados en los ficheros de marlin?
-Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible en el repositorio de marlin.
+Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible en el repositorio de marlin. Todos los cambios se han realizado en configuration.h.
 
 Cambios referentes a la placa
 
@@ -55,7 +55,11 @@ Cambios referentes a la placa
 Cambios referentes al LCD:
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
-|En proceso|En proceso|
+|Añadir linea (despues de la de  #define MOTHERBOARD)| #define SKR_MINI_SCREEN_ADAPTER |
+|Descomentar linea para activar LCD| //#define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight |
+|Selecionar el tipo de pantalla | #define NEOPIXEL_TYPE NEO_RGB |
+
+
 
 Otros cambios:
 | Cambio | Parametro Implementado / Sustituido| 
@@ -65,7 +69,8 @@ Otros cambios:
 
 
 ## Agradecimientos a 
+- PaulSolodovnikov por explicar los cambios necesarios para marlin (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1464537556)
 - evgarthub por explicar como se deberia conectar la placa a la pantalla (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1736805084)
-- mundoanet por explicar como sustituir la placa en la anet
+- mundoanet por explicar como sustituir la placa en la anet (https://mundoanet.blogspot.com/2020/08/instalacion-placa-mksskr-con-placa.html)
 - crazy_3D por el soporte para poner la SKR Mini E3 V3 en la Anet. (https://cults3d.com/es/modelo-3d/herramientas/anet-et4-o-et5-adaptador-placa-base-skr-mini-e3-v3)
 - 3dwork.io por su guia de configuracion de marlin ( https://3dwork.io/configurar-marlin-2-0-x-desde-cero/ )

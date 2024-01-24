@@ -46,6 +46,7 @@ Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible
 ## Agradecimientos a 
 - PaulSolodovnikov por explicar los cambios necesarios para marlin (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1464537556)
 - evgarthub por explicar como se deberia conectar la placa a la pantalla (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1736805084)
+- veluska por explicar como hacer funcionar la pantalla en la SKR mini E3 v3.0.1 y hacerla funcionar en klipper (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1858823385)
 - mundoanet por explicar como sustituir la placa en la anet (https://mundoanet.blogspot.com/2020/08/instalacion-placa-mksskr-con-placa.html)
 - crazy_3D por el soporte para poner la SKR Mini E3 V3 en la Anet. (https://cults3d.com/es/modelo-3d/herramientas/anet-et4-o-et5-adaptador-placa-base-skr-mini-e3-v3)
 - 3dwork.io por su guia de configuracion de marlin ( https://3dwork.io/configurar-marlin-2-0-x-desde-cero/ )

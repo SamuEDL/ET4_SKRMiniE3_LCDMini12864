@@ -15,7 +15,7 @@ Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
 | Cambio de placa por la SKR V3.0 | #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0 |
-| Cambio de placa por la SKR V3.0.1 | #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0 |
+| Cambio de placa por la SKR V3.0.1 | #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0_1 |
 | Cambio de velocidad de comunicacion | #define BAUDRATE 115200|
 | Serial Port | #define SERIAL_PORT 2 |
 | Serial Port | #define SERIAL_PORT_2 -1 |

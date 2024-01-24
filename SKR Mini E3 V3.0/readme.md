@@ -20,3 +20,28 @@
 |---------------------------|-------------|
 | SKR Mini E3 V3 | https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_PIN.pdf |
 | LCD Mini 12864 | https://github.com/bigtreetech/MINI-12864/blob/master/mini12864_v2.0/Hardware/MINI12864%20V2.0-Pin.png |
+
+## Klipper
+
+LCD config:
+```
+[display]
+lcd_type: uc1701
+cs_pin: PB8
+a0_pin: PD6
+rst_pin: PB9
+encoder_pins: ^PA9,^PA10
+click_pin: ^!PB5
+contrast: 63
+spi_software_sclk_pin: PA5
+spi_software_mosi_pin: PA7
+spi_software_miso_pin: PA6
+
+[neopixel SKR_screen]
+pin: PA15
+chain_count: 3
+initial_RED: 0.4
+initial_GREEN: 0.05
+initial_BLUE: 0.0
+color_order: RGB
+```

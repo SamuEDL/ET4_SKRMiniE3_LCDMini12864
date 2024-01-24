@@ -39,11 +39,14 @@ Eran los mas baratos y no queria gastar mucho. Como consecuencia, habra que adap
 ## ¿Cambios realizados en los ficheros de marlin?
 Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible en el repositorio de marlin. Todos los cambios se han realizado en configuration.h.
 
-Cambios referentes a la placa
+### Cambios referentes a la placa
+
+**Aviso:** Puse el principio tanto el de la SKR 3.0 como el de la 3.0.1, porque es una loteria de cual te puede llegar. Asi que añade solo **una** de las dos lineas dependiendo de lo que te haya llegado.
 
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
-| Cambio de placa por la SKR | #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0 |
+| Cambio de placa por la SKR V3.0 | #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0 |
+| Cambio de placa por la SKR V3.0.1 | #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0 |
 | Cambio de velocidad de comunicacion | #define BAUDRATE 115200|
 | Serial Port | #define SERIAL_PORT 2 |
 | Serial Port | #define SERIAL_PORT_2 -1 |
@@ -51,20 +54,15 @@ Cambios referentes a la placa
 | Cambio de Driver en X | #define X_DRIVER_TYPE TMC2209 |
 | Cambio de Driver en Z | #define Z_DRIVER_TYPE TMC2209 |
 | Cambio de Driver en E0 | #define E0_DRIVER_TYPE TMC2209 |
-**Aviso:** Esta saliendo una nueva variante de SKR, la V3.0.1. En este caso, el parametro seria **MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0_1**, para diferenciarlo notaras que tiene 2 botones reset y boot.
 
-
-
-Cambios referentes al LCD:
+### Cambios referentes al LCD:
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
 |Añadir linea (despues de la de  #define MOTHERBOARD)| #define SKR_MINI_SCREEN_ADAPTER |
-|Descomentar linea para activar LCD| //#define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight |
+|Descomentar linea para activar LCD| #define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight |
 |Selecionar el tipo de pantalla | #define NEOPIXEL_TYPE NEO_RGB |
 
-
-
-Otros cambios:
+### Otros cambios: (Opcionales)
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
 | Activacion EndStop Z | #define USE_ZMIN_PLUG |

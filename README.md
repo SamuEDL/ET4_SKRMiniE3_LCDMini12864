@@ -61,6 +61,7 @@ Otros cambios:
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
 | Activacion EndStop Z | #define USE_ZMIN_PLUG |
+| Cambiar idioma a Español | #define LCD_LANGUAGE es |
 
 
 ## Agradecimientos a 

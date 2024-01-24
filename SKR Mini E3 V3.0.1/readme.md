@@ -47,3 +47,51 @@ initial_RED: 0.4
 initial_GREEN: 0.05
 initial_BLUE: 0.0
 ```
+
+## Marlin
+
+En caso, de que no funcione añadir este codigo en el fichero pins_BTT_SKR_MINI_E3_V3_0_1.h
+
+```
+#if ENABLED(SKR_MINI_SCREEN_ADAPTER)
+    /** https://github.com/VoronDesign/Voron-Hardware/tree/master/SKR-Mini_Screen_Adaptor/SRK%20Mini%20E3%20V3.0
+     *
+     *            SKR Mini E3 V3.0.1                   SKR Mini Screen Adaptor
+     *                 ------                                ------
+     *            5V  | 1  2 | GND                     MISO | 1  2 | SCK
+     *            CS  | 3  4 | SCK               (EN1) PA10 | 3  4 | --
+     *          MOSI  | 5  6 | MISO              (EN2)  PA9   5  6 | MOSI
+     *           3V3  | 7  8 | GND                       -- | 7  8 | --
+     *                 ------                           GND | 9 10 | RESET (Kill)
+     *                  SPI                                  ------
+     *                                                        EXP2
+     *
+     *                 ------                                ------
+     *           PB15 | 1  2 | PB14                      -- | 1  2 | PB5  (BTN_ENC)
+     *            PA9 | 3  4 | RESET           (LCD CS) PB8 | 3  4 | PD6  (LCD_A0)
+     *           PA10 | 5  6 | PB4              (RESET) PB9 | 5  6 | PA15 (DIN)
+     *            PD2 | 7  8 | PC0                       -- | 7  8 | --
+     *            GND | 9 10 | 5V                       GND | 9 10 | 5V
+     *                 ------                                ------
+     *                  EXP1                                  EXP1
+     */
+    #if ENABLED(FYSETC_MINI_12864_2_1)
+      #define BTN_ENC                EXP1_01_PIN
+      #define BTN_EN1                EXP1_03_PIN
+      #define BTN_EN2                EXP1_05_PIN
+      #define BEEPER_PIN                    -1
+      #define LCD_RESET_PIN          EXP1_06_PIN
+      #define DOGLCD_CS              EXP1_07_PIN
+      #define DOGLCD_A0              EXP1_08_PIN
+      #define DOGLCD_SCK                    PA5
+      #define DOGLCD_MOSI                   PA7
+
+      #define FORCE_SOFT_SPI
+      #define LCD_BACKLIGHT_PIN             -1
+      #define NEOPIXEL_PIN           EXP1_02_PIN
+    #else
+      #error "Only FYSETC_MINI_12864_2_1 / MKS_MINI_12864_V3 / BTT_MINI_12864 / BEEZ_MINI_12864 are currently supported on the BIGTREE_SKR_MINI_E3 with SKR_MINI_SCREEN_ADAPTER."
+    #endif
+
+  #else
+```

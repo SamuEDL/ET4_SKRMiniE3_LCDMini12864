@@ -9,23 +9,11 @@ Eran los mas baratos y no queria gastar mucho. Como consecuencia, habra que adap
 Encontre esto que puede ser interesante y que puede ayudar en las instalacion de los componentes. https://os.ratrig.com/assets/files/skr-mini-e3-30-wiring-5ed9982d5a1c62e9f30c37b29a2e5571.svg
 
 ## ¿Cambios realizados en los ficheros de marlin?
-Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible en el repositorio de marlin. Todos los cambios se han realizado en configuration.h.
+Las modificaciones se realizaron a partir del fichero de ejemplo Ender 3 con placa SKR Mini E3 V3.0 disponible en el repositorio de marlin. Todos los cambios se han realizado en configuration.h.
 
 - Cambios referentes a la placa
 
 **Aviso:** Puse el principio tanto el de la SKR 3.0 como el de la 3.0.1, porque es una loteria de cual te puede llegar. Asi que añade solo **una** de las dos lineas dependiendo de lo que te haya llegado.
-
-| Cambio | Parametro Implementado / Sustituido| 
-|---------------------------|-------------|
-| Cambio de placa por la SKR V3.0 | #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0 |
-| Cambio de placa por la SKR V3.0.1 | #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0_1 |
-| Cambio de velocidad de comunicacion | #define BAUDRATE 115200|
-| Serial Port | #define SERIAL_PORT 2 |
-| Serial Port | #define SERIAL_PORT_2 -1 |
-| Cambio de Driver en Y | #define Y_DRIVER_TYPE TMC2209 |
-| Cambio de Driver en X | #define X_DRIVER_TYPE TMC2209 |
-| Cambio de Driver en Z | #define Z_DRIVER_TYPE TMC2209 |
-| Cambio de Driver en E0 | #define E0_DRIVER_TYPE TMC2209 |
 
 - Cambios referentes al LCD:
 
@@ -34,20 +22,26 @@ Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible
 |Añadir linea (despues de la de  #define MOTHERBOARD)| #define SKR_MINI_SCREEN_ADAPTER |
 |Descomentar linea para activar LCD| #define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight |
 |Selecionar el tipo de pantalla | #define NEOPIXEL_TYPE NEO_RGB |
-|Comentar linea, para desactivar la pantalla de la ET4 | //#define ANET_ET4_TFT28 |
+
+- Cambios para la estructura de la Anet ET4:
+
+| Cambios | Parametro Implementado / Sustituido| 
+|---------------------------|-------------|
+| Tamaño de Cama Caliente X| #define X_BED_SIZE 220 |
+| Tamaño de Cama Caliente Y| #define Y_BED_SIZE 220 |
+| Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 100.7 } |
+
 
 - Otros cambios: (Opcionales)
 
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
-| Activacion EndStop Z | #define USE_ZMIN_PLUG |
 | Cambiar idioma a Español | #define LCD_LANGUAGE es |
 
 - Otros cambios, solo si has cambiado el hotend/extrusor por el de la **Kingroon KP3S**
 
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
-| Sensor Temperatura | #define TEMP_SENSOR_0 1 |
 | Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 815 } |
 
 ## Agradecimientos a 

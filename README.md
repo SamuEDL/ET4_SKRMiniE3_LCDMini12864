@@ -43,11 +43,11 @@ Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible
 | Cambiar idioma a Español | #define LCD_LANGUAGE es |
 
 - Otros cambios, solo si has cambiado el hotend/extrusor por el de la **Kingroon KP3S**
+
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
 | Sensor Temperatura | #define TEMP_SENSOR_0 1 |
-| Cambio de pasos por el del extrusor de kingroon | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 815 } |
-
+| Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 815 } |
 
 ## Agradecimientos a 
 - PaulSolodovnikov por explicar los cambios necesarios para marlin (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1464537556)

@@ -8,42 +8,6 @@ Eran los mas baratos y no queria gastar mucho. Como consecuencia, habra que adap
 ## ¿Como conecto los componentes?
 Encontre esto que puede ser interesante y que puede ayudar en las instalacion de los componentes. https://os.ratrig.com/assets/files/skr-mini-e3-30-wiring-5ed9982d5a1c62e9f30c37b29a2e5571.svg
 
-## ¿Cambios realizados en los ficheros de marlin?
-Las modificaciones se realizaron a partir del fichero de ejemplo Ender 3 con placa SKR Mini E3 V3.0 disponible en el repositorio de marlin. Todos los cambios se han realizado en configuration.h.
-
-- Cambios referentes a la placa
-
-**Aviso:** Puse el principio tanto el de la SKR 3.0 como el de la 3.0.1, porque es una loteria de cual te puede llegar. Asi que añade solo **una** de las dos lineas dependiendo de lo que te haya llegado.
-
-- Cambios referentes al LCD:
-
-| Cambio | Parametro Implementado / Sustituido| 
-|---------------------------|-------------|
-|Añadir linea (despues de la de  #define MOTHERBOARD)| #define SKR_MINI_SCREEN_ADAPTER |
-|Descomentar linea para activar LCD| #define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight |
-|Selecionar el tipo de pantalla | #define NEOPIXEL_TYPE NEO_RGB |
-
-- Cambios para la estructura de la Anet ET4:
-
-| Cambios | Parametro Implementado / Sustituido| 
-|---------------------------|-------------|
-| Tamaño de Cama Caliente X| #define X_BED_SIZE 220 |
-| Tamaño de Cama Caliente Y| #define Y_BED_SIZE 220 |
-| Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 100.7 } |
-
-
-- Otros cambios: (Opcionales)
-
-| Cambio | Parametro Implementado / Sustituido| 
-|---------------------------|-------------|
-| Cambiar idioma a Español | #define LCD_LANGUAGE es |
-
-- Otros cambios, solo si has cambiado el hotend/extrusor por el de la **Kingroon KP3S**
-
-| Cambio | Parametro Implementado / Sustituido| 
-|---------------------------|-------------|
-| Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 815 } |
-
 ## Agradecimientos a 
 - PaulSolodovnikov por explicar los cambios necesarios para marlin (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1464537556)
 - evgarthub por explicar como se deberia conectar la placa a la pantalla (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1736805084)

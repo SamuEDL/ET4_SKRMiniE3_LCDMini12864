@@ -34,6 +34,7 @@ Las modificaciones se realizaron a partir del fichero de ejemplo ET4+ disponible
 |Añadir linea (despues de la de  #define MOTHERBOARD)| #define SKR_MINI_SCREEN_ADAPTER |
 |Descomentar linea para activar LCD| #define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight |
 |Selecionar el tipo de pantalla | #define NEOPIXEL_TYPE NEO_RGB |
+|Comentar linea, para desactivar la pantalla de la ET4 | //#define ANET_ET4_TFT28 |
 
 - Otros cambios: (Opcionales)
 

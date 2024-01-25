@@ -2,7 +2,8 @@
 
 | Periferico / Peripheral | Funciona? / Work ? | 
 |---------------------------|-------------|
-| Pantalla | ? |
+| Compila | YES! |
+| Pantalla / Screen | ? |
 | Motor Z | ? |
 | Motor X  |	? |
 | Motor Y |	?|

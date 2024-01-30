@@ -3,7 +3,7 @@
 | Periferico / Peripheral | Funciona? / Work ? | 
 |---------------------------|-------------|
 | Compila | YES! |
-| Pantalla / Screen | ? |
+| Pantalla / Screen | YES |
 | Motor Z | ? |
 | Motor X  |	? |
 | Motor Y |	?|
@@ -22,12 +22,17 @@
 Las modificaciones se realizaron a partir del fichero de ejemplo Ender 3 con placa SKR Mini E3 V3.0 disponible en el repositorio de marlin. Todos los cambios se han realizado en configuration.h.
 
 - Cambios referentes al LCD:
-
+Modificaciones en el configuration.h
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
 |Añadir linea (despues de la de  #define MOTHERBOARD)| #define SKR_MINI_SCREEN_ADAPTER |
 |Descomentar linea para activar LCD| #define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight |
 |Selecionar el tipo de pantalla | #define NEOPIXEL_TYPE NEO_RGB |
+
+Modificaciones en el configuration_adv.h
+| Cambio | Parametro Implementado / Sustituido| 
+|---------------------------|-------------|
+| Activacion de backlight|  #define LED_CONTROL_MENU |
 
 - Cambios para la estructura de la Anet ET4:
 

@@ -9,11 +9,14 @@
 | EX1: GND |	EXP1: GND |
 | EX1: PA15 |	EXP1: D5 |
 | EX1: RST |	EXP2: RST |
+| EX1: PB9	| EXP1: D4|
 | EX1: PD6	| EXP1: LCD-CS |
 |EX1: 5v |	EXP1: 5v |
 |SPI1: MOSI	| EXP2: SD-MOSI
 |SPI1: CLK	| EXP2: SD-SCK
 |SPI1: MISO	| EXP2: SD-MISO
+
+![SKRMiniLCD](https://github.com/SamuEDL/ET4_SKRMiniE3_LCDMini12864/blob/main/SKR%20Mini%20E3%20V3.0/ConexionSKRYMini.jpg?raw=true)
 
 ## Diagramas:
 | Objeto | Diagrama | 

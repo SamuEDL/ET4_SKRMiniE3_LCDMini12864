@@ -58,3 +58,5 @@ Modificaciones en el configuration_adv.h
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
 | Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 815 } |
+| Longitud maxima de extrusion  | #define EXTRUDE_MAXLENGTH 1000 |
+

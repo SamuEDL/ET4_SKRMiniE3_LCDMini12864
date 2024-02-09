@@ -1178,7 +1178,7 @@
  * Override with M203
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 300, 300, 9, 180 } /sam
+#define DEFAULT_MAX_FEEDRATE          { 300, 300, 9, 180 } //sam
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
@@ -1208,7 +1208,7 @@
  */
 #define DEFAULT_ACCELERATION           1250    // X, Y, Z and E acceleration for printing moves //Sam
 #define DEFAULT_RETRACT_ACCELERATION   1250    // E acceleration for retracts //sam
-#define DEFAULT_TRAVEL_ACCELERATION    1250    // X, Y, Z acceleration for travel (non printing) moves /sam
+#define DEFAULT_TRAVEL_ACCELERATION    1250    // X, Y, Z acceleration for travel (non printing) moves //sam
 
 /**
  * Default Jerk limits (mm/s)

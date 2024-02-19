@@ -9,8 +9,8 @@ Eran los mas baratos y no queria gastar mucho. Como consecuencia, habra que adap
 Encontre esto que puede ser interesante y que puede ayudar en las instalacion de los componentes. https://os.ratrig.com/assets/files/skr-mini-e3-30-wiring-5ed9982d5a1c62e9f30c37b29a2e5571.svg
 
 ## STLs
-Adaptador pantalla para Anet ET4: https://www.thingiverse.com/thing:4035968
-Adaptador de placa SKR 3 para Anet ET4 (De pago): https://cults3d.com/es/modelo-3d/herramientas/anet-et4-o-et5-adaptador-placa-base-skr-mini-e3-v3
+- Adaptador pantalla para Anet ET4: https://www.thingiverse.com/thing:4035968
+- Adaptador de placa SKR 3 para Anet ET4 (De pago): https://cults3d.com/es/modelo-3d/herramientas/anet-et4-o-et5-adaptador-placa-base-skr-mini-e3-v3
 
 ## Agradecimientos a 
 - PaulSolodovnikov por explicar los cambios necesarios para marlin (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1464537556)

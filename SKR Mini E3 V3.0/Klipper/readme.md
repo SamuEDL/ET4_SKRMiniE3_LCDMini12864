@@ -1,6 +1,7 @@
-## Klipper
+# Klipper
+Esta configuracion la dejo para tenerla a mano por si mas adelante quiero probar Klipper en la impresora. Pero de momento no lo tengo planeado.
 
-LCD config:
+## Configuracion LCD / LCD config:
 ```
 [display]
 lcd_type: uc1701

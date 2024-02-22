@@ -12,6 +12,10 @@ Encontre esto que puede ser interesante y que puede ayudar en las instalacion de
 - Adaptador pantalla para Anet ET4: https://www.thingiverse.com/thing:4035968
 - Adaptador de placa SKR 3 para Anet ET4 (De pago): https://cults3d.com/es/modelo-3d/herramientas/anet-et4-o-et5-adaptador-placa-base-skr-mini-e3-v3
 
+## Mi pantalla no funciona correctamente cuando imprimo ¿Que puedo hacer?
+Un usuario le ocurria algo semejante y posiblemente sea por el aislamiento del cable. En estos casos recomiendan poner un nucleo de ferrita para evitarlo.
+https://www.reddit.com/r/BIGTREETECH/comments/uhgxn1/display_freezes_while_printing_prints_fine_though/
+
 ## Agradecimientos a 
 - PaulSolodovnikov por explicar los cambios necesarios para marlin (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1464537556)
 - evgarthub por explicar como se deberia conectar la placa a la pantalla (https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1736805084)

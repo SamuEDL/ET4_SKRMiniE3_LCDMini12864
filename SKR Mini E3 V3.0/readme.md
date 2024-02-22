@@ -1,3 +1,9 @@
+## Sistemas probados:
+| Sistema | Probado | 
+|---------------------------|-------------|
+| Marlin | Si |
+| Klipper | No |
+
 ## ¿Como debe ir conectada la pantalla a la placa?
 
 | SKR Mini E3 v3 pin (PORT: pin) | Mini 12864 pin (PORT: pin) | 

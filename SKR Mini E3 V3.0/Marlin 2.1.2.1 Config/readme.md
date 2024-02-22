@@ -10,12 +10,12 @@ Cambios basados en los ficheros de configuracion de Escrich y Ruben Mota (Gracia
 | Motor X  |	YES |
 | Motor Y |	YES |
 | Motor Extrusor | YES |
-| Sensor Inductivo  / Inductive Sensor| ? |
+| Sensor Inductivo  / Inductive Sensor| No testeado / Not tested |
 | EndStop Z |	YES |
 | Enstop X |	YES |
 | EndStop Y|	YES |
 | Sensor Temp Hotend	| YES |
-| Hotend |	? |
+| Hotend |	YES |
 | Sensor Temp Cama / Sensor Temp Bed	| YES |
 | Cama / Bed	| YES |
 

@@ -1,5 +1,7 @@
 Cambios basados en los ficheros de configuracion de Escrich y Ruben Mota (Gracias a ambos) para la SKR Mini E3 V2.0 en la Anet ET4. https://github.com/Escrich/00_SKR_Mini_00/tree/master
 
+Estos ficheros estan preparados para ser utilizados para **Marlin 2.1.2.1 Estable** https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2.1
+
 ## ¿Que funciona? / It works?
 
 | Periferico / Peripheral | Funciona? / Work ? | 

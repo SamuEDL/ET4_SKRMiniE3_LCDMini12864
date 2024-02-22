@@ -1,21 +1,23 @@
+Cambios basados en los ficheros de configuracion de Escrich y Ruben Mota (Gracias a ambos) para la SKR Mini E3 V2.0 en la Anet ET4. https://github.com/Escrich/00_SKR_Mini_00/tree/master
+
 ## ¿Que funciona? / It works?
 
 | Periferico / Peripheral | Funciona? / Work ? | 
 |---------------------------|-------------|
 | Compila | YES! |
 | Pantalla / Screen | YES |
-| Motor Z | ? |
-| Motor X  |	? |
-| Motor Y |	?|
-| Motor Extrusor | ? |
+| Motor Z | YES |
+| Motor X  |	YES |
+| Motor Y |	YES |
+| Motor Extrusor | YES |
 | Sensor Inductivo  / Inductive Sensor| ? |
-| EndStop Z |	? |
-| Enstop X |	? |
-| EndStop Y|	? |
-| Sensor Temp Hotend	| ? |
+| EndStop Z |	YES |
+| Enstop X |	YES |
+| EndStop Y|	YES |
+| Sensor Temp Hotend	| YES |
 | Hotend |	? |
-| Sensor Temp Cama / Sensor Temp Bed	| ? |
-| Cama / Bed	| ? |
+| Sensor Temp Cama / Sensor Temp Bed	| YES |
+| Cama / Bed	| YES |
 
 
 ## ¿Cambios realizados en los ficheros de marlin?
@@ -57,6 +59,6 @@ Modificaciones en el configuration_adv.h
 
 | Cambio | Parametro Implementado / Sustituido| 
 |---------------------------|-------------|
-| Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 815 } |
+| Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 407.5 } |
 | Longitud maxima de extrusion  | #define EXTRUDE_MAXLENGTH 1000 |
 

@@ -23,7 +23,9 @@ Estos ficheros estan preparados para ser utilizados para **Marlin 2.1.2.1 Establ
 
 
 ## ¿Cambios realizados en los ficheros de marlin?
-Las modificaciones se realizaron a partir del fichero de ejemplo Ender 3 con placa SKR Mini E3 V3.0 disponible en el repositorio de marlin. Todos los cambios se han realizado en configuration.h.
+Las modificaciones se realizaron a partir del fichero de ejemplo de la Ender 3 con placa SKR Mini E3 V3.0 disponible en el repositorio de marlin y se hicieron los cambios basados en el fichero de la SKR 2.0 de Escrich y Ruben Mota. Todos las lineas modificadas en el fichero de configuracion esta comentado con un \\SAM, para saberlo.
+
+A continuacion, he puesto algunos cambios aparte que he realizado para el funcionamiento de la pantalla, poner marlin en español o para usar el extrusor de la kingroon kp3s
 
 - Cambios referentes al LCD:
   

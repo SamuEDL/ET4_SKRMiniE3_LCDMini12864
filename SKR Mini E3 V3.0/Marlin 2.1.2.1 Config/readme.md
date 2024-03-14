@@ -2,6 +2,14 @@ Cambios basados en los ficheros de configuracion de Escrich y Ruben Mota (Gracia
 
 Estos ficheros estan preparados para ser utilizados para **Marlin 2.1.2.1 Estable** https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2.1
 
+
+## AVISO
+No me hago responsable de dispositivos brickeados, tarjetas SD dañada o que la impresora empiece a imprimir un cuerpo para gobernar el mundo. 
+
+## NOTA
+Los ficheros de configuracion estan preparados para la Anet ET4 con el extrusor de la kingroon kp3s, en caso que la tengas de serie tendras que modificar los parametros relacionados con el extrusor y posiblemente el giro del motor. Igualmente abajo os dejo los parametros que hay que tocar referente a ello. ([Cambios para el extrusor/hotend de serie de la Anet ET4](https://github.com/SamuEDL/ET4_SKRMiniE3_LCDMini12864/edit/main/SKR%20Mini%20E3%20V3.0/Marlin%202.1.2.1%20Config/readme.md#cambios-para-el-extrusor-de-serie-de-la-anet-et4)) 
+
+
 ## ¿Que funciona? / It works?
 
 | Periferico / Peripheral | Funciona? / Work ? | 
@@ -50,7 +58,6 @@ Modificaciones en el configuration_adv.h
 |---------------------------|-------------|
 | Tamaño de Cama Caliente X| #define X_BED_SIZE 220 |
 | Tamaño de Cama Caliente Y| #define Y_BED_SIZE 220 |
-| Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 100.7 } |
 
 
 - Otros cambios: (Opcionales)
@@ -66,3 +73,11 @@ Modificaciones en el configuration_adv.h
 | Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 407.5 } |
 | Longitud maxima de extrusion  | #define EXTRUDE_MAXLENGTH 1000 |
 
+----------------------------
+
+## Cambios para el extrusor de serie de la Anet ET4:
+
+| Cambios | Parametro Implementado / Sustituido| 
+|---------------------------|-------------|
+| Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 100.7 } |
+| Giro del motor  | #define INVERT_E0_DIR true |

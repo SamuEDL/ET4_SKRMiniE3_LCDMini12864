@@ -1701,12 +1701,12 @@
 #define Y_BED_SIZE 220 //sam
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
-#define X_MIN_POS -4 //SAM
-#define Y_MIN_POS -11
+#define X_MIN_POS 0 //SAM
+#define Y_MIN_POS -32
 #define Z_MIN_POS 0
-#define X_MAX_POS (X_BED_SIZE + 15) //Limite total de X AnetET4, añadiendo 15 mm. de margen a la derecha  // SAM
+#define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS (220 + 8)
+#define Z_MAX_POS 250
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
 //#define J_MIN_POS 0

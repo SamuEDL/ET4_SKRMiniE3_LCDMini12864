@@ -6,6 +6,9 @@ Estos ficheros estan preparados para ser utilizados para **Marlin 2.1.2.1 Establ
 ## AVISO
 No me hago responsable de dispositivos brickeados, tarjetas SD dañada o que la impresora empiece a imprimir un cuerpo para gobernar el mundo. 
 
+## AVISO 2
+La configuracion se hizo para la Anet ET4 con Hotend de la Kingsroon KP3S. A pesar de ello, abajo teneis los parametros necesarios que teneis que sustituir si teneis el hotend stock.
+
 ## NOTA
 Los ficheros de configuracion estan preparados para la Anet ET4 con el extrusor de la kingroon kp3s, en caso que la tengas de serie tendras que modificar los parametros relacionados con el extrusor y posiblemente el giro del motor. Igualmente abajo os dejo los parametros que hay que tocar referente a ello. ([Cambios para el extrusor/hotend de serie de la Anet ET4](https://github.com/SamuEDL/ET4_SKRMiniE3_LCDMini12864/edit/main/SKR%20Mini%20E3%20V3.0/Marlin%202.1.2.1%20Config/readme.md#cambios-para-el-extrusor-de-serie-de-la-anet-et4)) 
 
@@ -72,6 +75,8 @@ Modificaciones en el configuration_adv.h
 |---------------------------|-------------|
 | Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 407.5 } |
 | Longitud maxima de extrusion  | #define EXTRUDE_MAXLENGTH 1000 |
+| Posicion de Homing X  | #define X_MIN_POS 0  |
+| Posicion de Homing Y  | #define Y_MIN_POS -32 |
 
 ----------------------------
 
@@ -81,3 +86,5 @@ Modificaciones en el configuration_adv.h
 |---------------------------|-------------|
 | Cambio de pasos  | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.4, 80.4, 403.1, 100.7 } |
 | Giro del motor  | #define INVERT_E0_DIR true |
+| Posicion de Homing X  | #define X_MIN_POS -1  |
+| Posicion de Homing Y  | #define Y_MIN_POS -11 |

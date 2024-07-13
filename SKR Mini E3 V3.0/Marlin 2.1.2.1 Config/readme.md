@@ -6,11 +6,8 @@ Estos ficheros estan preparados para ser utilizados para **Marlin 2.1.2.1 Establ
 ## AVISO
 No me hago responsable de dispositivos brickeados, tarjetas SD dañada o que la impresora empiece a imprimir un cuerpo para gobernar el mundo. 
 
-## AVISO 2
-La configuracion se hizo para la Anet ET4 con Hotend de la Kingsroon KP3S. A pesar de ello, abajo teneis los parametros necesarios que teneis que sustituir si teneis el hotend stock.
-
 ## NOTA
-Los ficheros de configuracion estan preparados para la Anet ET4 con el extrusor de la kingroon kp3s, en caso que la tengas de serie tendras que modificar los parametros relacionados con el extrusor y posiblemente el giro del motor. Igualmente abajo os dejo los parametros que hay que tocar referente a ello. ([Cambios para el extrusor/hotend de serie de la Anet ET4](https://github.com/SamuEDL/ET4_SKRMiniE3_LCDMini12864/edit/main/SKR%20Mini%20E3%20V3.0/Marlin%202.1.2.1%20Config/readme.md#cambios-para-el-extrusor-de-serie-de-la-anet-et4)) 
+Los ficheros de configuracion estan preparados para la Anet ET4 con el extrusor/hotend de la kingroon kp3s, en caso que la tengas de serie tendras que modificar los parametros relacionados con el extrusor/hotend y posiblemente el giro del motor. Igualmente abajo os dejo los parametros que hay que tocar referente a ello. ([Cambios para el extrusor/hotend de serie de la Anet ET4](https://github.com/SamuEDL/ET4_SKRMiniE3_LCDMini12864/tree/main/SKR%20Mini%20E3%20V3.0/Marlin%202.1.2.1%20Config#cambios-para-el-extrusor-de-serie-de-la-anet-et4)) 
 
 
 ## ¿Que funciona? / It works?

@@ -6,7 +6,11 @@ El motivo de la sustitucion de estos dos componentes, es porque se me quemo la p
 Eran los mas baratos y no queria gastar mucho. Como consecuencia, habra que adaptar las conexiones para que se pueda conectar el LCD al SKR.
 
 ## ¿Como conecto los componentes?
-Encontre esto que puede ser interesante y que puede ayudar en las instalacion de los componentes. https://os.ratrig.com/assets/files/skr-mini-e3-30-wiring-5ed9982d5a1c62e9f30c37b29a2e5571.svg
+Encontre esto que puede ser interesante y que puede ayudar en las instalacion de los componentes. Agradecimientos a ratrig.com por un esquema tan intuitivo (https://os.ratrig.com/docs/boards/btt/skr-mini-e3-30/)
+
+![Esquema SKR Mini E3 V3](https://github.com/SamuEDL/ET4_SKRMiniE3_LCDMini12864/blob/main/Otros/IMG.jpg?raw=true)
+
+
 
 ## Mi pantalla no funciona correctamente cuando imprimo ¿Que puedo hacer?
 Un usuario le ocurria algo semejante y posiblemente sea por el aislamiento del cable. En estos casos recomiendan poner un nucleo de ferrita para evitarlo.
